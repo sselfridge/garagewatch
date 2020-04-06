@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sselfridge/garagewatch/issues"
   },
-  "homepage": "https://github.com/sselfridge/garagewatch#readme"
+  "homepage": "https://github.com/sselfridge/garagewatch#readme",
+  "dependencies": {
+    "mongoose": "^5.9.7"
+  }
 }
