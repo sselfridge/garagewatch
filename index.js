@@ -1,5 +1,8 @@
 var mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost/meinDB", { useNewUrlParser: true, useUnifiedTopology: true });
+
+const password = "53wVfeMQMWvwRU73";
+const uri = `mongodb+srv://meinUser:${password}@meincluster-5eov3.mongodb.net/test?retryWrites=true&w=majority`;
+mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 console.log("Starting Connection");
 var db = mongoose.connection;
 db.on("error", console.error.bind(console, "connection error:"));
