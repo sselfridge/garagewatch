@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/sselfridge/garagewatch#readme",
   "dependencies": {
-    "mongoose": "^5.9.7"
+    "mongoose": "^5.13.15"
   }
 }
